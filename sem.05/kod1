@@ -1,0 +1,6 @@
+class InvalidParameterError(Exception):
+    class MissingParameterError:
+
+class InvalidParameter(Exeption):
+    def __init__(self,invalid_parameter,*args):
+        message=""
